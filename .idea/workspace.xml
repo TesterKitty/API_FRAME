@@ -11,7 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfd25d7c-3233-4edb-a5be-58664646b7fc" name="Default Changelist" comment="xlrd二次封装">
-      <change afterPath="$PROJECT_DIR$/samples/test_class.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630926313371</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加test_class文件（学习类和实例）">
+      <created>1630943936998</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1630943936998</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,7 +176,8 @@
     <MESSAGE value="第一次提交：建立模块；测试提交功能" />
     <MESSAGE value="添加xlrd中merged_cells属性" />
     <MESSAGE value="xlrd二次封装" />
-    <option name="LAST_COMMIT_MESSAGE" value="xlrd二次封装" />
+    <MESSAGE value="增加test_class文件（学习类和实例）" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加test_class文件（学习类和实例）" />
   </component>
   <component name="WindowStateProjectService">
     <state x="604" y="323" key="#Notifications" timestamp="1630833707654">
@@ -205,9 +212,13 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="222" y="105" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1630724370570" />
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1630926328721">
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1630944400993">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1630926328721" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1630944400993" />
+    <state x="418" y="248" key="git4idea.merge.GitPullDialog" timestamp="1630943975619">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="418" y="248" key="git4idea.merge.GitPullDialog/0.0.1440.920@0.0.1440.920" timestamp="1630943975619" />
   </component>
 </project>
