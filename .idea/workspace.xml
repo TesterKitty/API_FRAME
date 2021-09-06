@@ -10,11 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfd25d7c-3233-4edb-a5be-58664646b7fc" name="Default Changelist" comment="添加xlrd中merged_cells属性">
-      <change afterPath="$PROJECT_DIR$/common/excel_untils.py" afterDir="false" />
+    <list default="true" id="bfd25d7c-3233-4edb-a5be-58664646b7fc" name="Default Changelist" comment="xlrd二次封装">
+      <change afterPath="$PROJECT_DIR$/samples/test_class.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/data/test_data.xls" beforeDir="false" afterPath="$PROJECT_DIR$/samples/data/test_data.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/read_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/read_excel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/samples/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Finder_api_test_framework" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
   <component name="RecentsManager">
@@ -50,7 +48,7 @@
       <recent name="C:\Users\Hwan\PycharmProjects\API_FRAME\samples\data" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.test_class (1)">
     <configuration name="read_excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="API_FRAME" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,8 +70,52 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_class (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="API_FRAME" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/test_class.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="API_FRAME" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Hwan\PycharmProjects\API_FRAME\samples\test_class.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_class (1)" />
+        <item itemvalue="Python.test_class" />
         <item itemvalue="Python.read_excel" />
       </list>
     </recent_temporary>
@@ -103,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630833926884</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="xlrd二次封装">
+      <created>1630926313371</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630926313371</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,33 +169,34 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交：建立模块；测试提交功能" />
     <MESSAGE value="添加xlrd中merged_cells属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加xlrd中merged_cells属性" />
+    <MESSAGE value="xlrd二次封装" />
+    <option name="LAST_COMMIT_MESSAGE" value="xlrd二次封装" />
   </component>
   <component name="WindowStateProjectService">
     <state x="604" y="323" key="#Notifications" timestamp="1630833707654">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="604" y="323" key="#Notifications/0.0.1440.920@0.0.1440.920" timestamp="1630833707654" />
-    <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1630724242814">
+    <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1630935066086">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1630724242814" />
-    <state width="1419" height="242" key="GridCell.Tab.0.bottom" timestamp="1630835520658">
+    <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1630935066086" />
+    <state width="1419" height="242" key="GridCell.Tab.0.bottom" timestamp="1630943410472">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1630835520658" />
-    <state width="1419" height="242" key="GridCell.Tab.0.center" timestamp="1630835520657">
+    <state width="1419" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1630943410472" />
+    <state width="1419" height="242" key="GridCell.Tab.0.center" timestamp="1630943410472">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1630835520657" />
-    <state width="1419" height="242" key="GridCell.Tab.0.left" timestamp="1630835520657">
+    <state width="1419" height="242" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1630943410472" />
+    <state width="1419" height="242" key="GridCell.Tab.0.left" timestamp="1630943410471">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1630835520657" />
-    <state width="1419" height="242" key="GridCell.Tab.0.right" timestamp="1630835520657">
+    <state width="1419" height="242" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1630943410471" />
+    <state width="1419" height="242" key="GridCell.Tab.0.right" timestamp="1630943410472">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1630835520657" />
+    <state width="1419" height="242" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1630943410472" />
     <state x="506" y="162" key="RollbackChangesDialog" timestamp="1630724823661">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -155,9 +205,9 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="222" y="105" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1630724370570" />
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1630834018323">
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1630926328721">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1630834018323" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1630926328721" />
   </component>
 </project>
