@@ -10,13 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfd25d7c-3233-4edb-a5be-58664646b7fc" name="Default Changelist" comment="第一次提交：建立模块；测试提交功能">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/data/test_data.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/read_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/API_FRAME.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/API_FRAME.iml" afterDir="false" />
+    <list default="true" id="bfd25d7c-3233-4edb-a5be-58664646b7fc" name="Default Changelist" comment="添加xlrd中merged_cells属性">
+      <change afterPath="$PROJECT_DIR$/common/excel_untils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/data/test_data.xls" beforeDir="false" afterPath="$PROJECT_DIR$/samples/data/test_data.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/read_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/read_excel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630723747659</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加xlrd中merged_cells属性">
+      <created>1630833926884</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630833926884</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,29 +119,34 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交：建立模块；测试提交功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次提交：建立模块；测试提交功能" />
+    <MESSAGE value="添加xlrd中merged_cells属性" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加xlrd中merged_cells属性" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="604" y="323" key="#Notifications" timestamp="1630833707654">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="604" y="323" key="#Notifications/0.0.1440.920@0.0.1440.920" timestamp="1630833707654" />
     <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1630724242814">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1630724242814" />
-    <state width="1419" height="242" key="GridCell.Tab.0.bottom" timestamp="1630833346417">
+    <state width="1419" height="242" key="GridCell.Tab.0.bottom" timestamp="1630835520658">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1630833346417" />
-    <state width="1419" height="242" key="GridCell.Tab.0.center" timestamp="1630833346417">
+    <state width="1419" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1630835520658" />
+    <state width="1419" height="242" key="GridCell.Tab.0.center" timestamp="1630835520657">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1630833346417" />
-    <state width="1419" height="242" key="GridCell.Tab.0.left" timestamp="1630833346417">
+    <state width="1419" height="242" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1630835520657" />
+    <state width="1419" height="242" key="GridCell.Tab.0.left" timestamp="1630835520657">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1630833346417" />
-    <state width="1419" height="242" key="GridCell.Tab.0.right" timestamp="1630833346417">
+    <state width="1419" height="242" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1630835520657" />
+    <state width="1419" height="242" key="GridCell.Tab.0.right" timestamp="1630835520657">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1419" height="242" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1630833346417" />
+    <state width="1419" height="242" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1630835520657" />
     <state x="506" y="162" key="RollbackChangesDialog" timestamp="1630724823661">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -145,9 +155,9 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="222" y="105" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1630724370570" />
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1630833604183">
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1630834018323">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1630833604183" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1630834018323" />
   </component>
 </project>
