@@ -1,11 +1,12 @@
 import os
 import xlrd
 class ExcelUtils():
-    def __init__(self,file_path,sheet_name):
+    def __init__(self,file_path,sheet_name): #构造
         self.file_path=file_path
         self.sheet_name=sheet_name
         self.sheet=self.get_sheet()  #把整个表格对象做成属性，后面使用方便
 
+    #获取表格数据
     def get_sheet(self):
         wb=xlrd.open_workbook(self.file_path)
         sheet=wb.sheet_by_name(self.sheet_name)
@@ -19,14 +20,17 @@ class ExcelUtils():
         col_count=self.sheet.ncols
         return col_count
 
+    #获取单元格的值
     def get_cell_value(self,row_index,col_index):  #不常用的方法可以加双下划线私有化命名
         cell_value=self.sheet.cell_value(row_index,col_index)
         return cell_value
 
+    #获取合并单元格的坐标信息
     def get_merged_info(self):
         merged = self.sheet.merged_cells
         return merged
 
+    #获取所有单元格的值（包括合并单元格）
     def get_merged_cell_value(self,row_index, col_index):
         cell_value = None
         for (rlow, rhigh, clow, chigh) in self.get_merged_info():
@@ -59,3 +63,5 @@ if __name__=='__main__':
     print(excelUtils.get_merged_cell_value(4,0))
     for i in excelUtils.get_sheet_data_by_dict():
         print(i)
+
+    print(excelUtils.get_merged_info)

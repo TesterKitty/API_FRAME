@@ -10,11 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfd25d7c-3233-4edb-a5be-58664646b7fc" name="Default Changelist" comment="xlrd二次封装">
-      <change afterPath="$PROJECT_DIR$/samples/data/test_case.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/read_excel1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/API_FRAME.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/API_FRAME.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bfd25d7c-3233-4edb-a5be-58664646b7fc" name="Default Changelist" comment="comomon模块excel_utils.py编写，完成了合并单元格的封装以及获取所有表格数据，将表格数据转成列表形式">
+      <change afterPath="$PROJECT_DIR$/common/testdata_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_data/test_case.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/excel_untils.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/excel_untils.py" afterDir="false" />
     </list>
@@ -31,6 +30,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1xelXehsDyJW3646jhpHSCDJ6VW" />
@@ -45,17 +50,40 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/samples/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_data" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xuhe\PycharmProjects\API_FRAME\test_data" />
+      <recent name="C:\Users\xuhe\PycharmProjects\API_FRAME\samples\test_data" />
       <recent name="C:\Users\xuhe\PycharmProjects\API_FRAME\samples\data" />
       <recent name="C:\Users\xuhe\PycharmProjects\API_FRAME\samples" />
       <recent name="C:\Users\Hwan\PycharmProjects\API_FRAME\samples\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.excel_untils">
+  <component name="RunManager" selected="Python.testdata_utils">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="API_FRAME" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="excel_untils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="API_FRAME" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,27 +97,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/excel_untils.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="read_excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="API_FRAME" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/read_excel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="testdata_utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="API_FRAME" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,11 +155,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Hwan\PycharmProjects\API_FRAME\samples\test_class.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/testdata_utils.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.testdata_utils" />
         <item itemvalue="Python.excel_untils" />
+        <item itemvalue="Python.demo" />
         <item itemvalue="Python.read_excel1" />
         <item itemvalue="Python.test_class (1)" />
-        <item itemvalue="Python.test_class" />
-        <item itemvalue="Python.read_excel" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630943936998</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="comomon模块excel_utils.py编写，完成了合并单元格的封装以及获取所有表格数据，将表格数据转成列表形式">
+      <created>1631426924277</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1631426924277</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,7 +244,8 @@
     <MESSAGE value="添加xlrd中merged_cells属性" />
     <MESSAGE value="xlrd二次封装" />
     <MESSAGE value="增加test_class文件（学习类和实例）" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加test_class文件（学习类和实例）" />
+    <MESSAGE value="comomon模块excel_utils.py编写，完成了合并单元格的封装以及获取所有表格数据，将表格数据转成列表形式" />
+    <option name="LAST_COMMIT_MESSAGE" value="comomon模块excel_utils.py编写，完成了合并单元格的封装以及获取所有表格数据，将表格数据转成列表形式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="604" y="323" key="#Notifications" timestamp="1630833707654">
@@ -242,50 +257,67 @@
     </state>
     <state x="445" y="178" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1631426456246" />
     <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1630935066086" />
-    <state width="1260" height="252" key="GridCell.Tab.0.bottom" timestamp="1631426300958">
+    <state width="1260" height="185" key="GridCell.Tab.0.bottom" timestamp="1631433253391">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1260" height="252" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1631426300958" />
+    <state width="1260" height="185" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1631433253391" />
     <state width="1419" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1630943410472" />
-    <state width="1260" height="252" key="GridCell.Tab.0.center" timestamp="1631426300958">
+    <state width="1260" height="185" key="GridCell.Tab.0.center" timestamp="1631433253391">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1260" height="252" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1631426300958" />
+    <state width="1260" height="185" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1631433253391" />
     <state width="1419" height="242" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1630943410472" />
-    <state width="1260" height="252" key="GridCell.Tab.0.left" timestamp="1631426300957">
+    <state width="1260" height="185" key="GridCell.Tab.0.left" timestamp="1631433253391">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1260" height="252" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1631426300957" />
+    <state width="1260" height="185" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1631433253391" />
     <state width="1419" height="242" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1630943410471" />
-    <state width="1260" height="252" key="GridCell.Tab.0.right" timestamp="1631426300958">
+    <state width="1260" height="185" key="GridCell.Tab.0.right" timestamp="1631433253391">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1260" height="252" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1631426300958" />
+    <state width="1260" height="185" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1631433253391" />
     <state width="1419" height="242" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1630943410472" />
-    <state x="450" y="134" key="RollbackChangesDialog" timestamp="1631349582514">
+    <state width="1260" height="236" key="GridCell.Tab.1.bottom" timestamp="1631427884625">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="450" y="134" key="RollbackChangesDialog/0.0.1280.760@0.0.1280.760" timestamp="1631349582514" />
+    <state width="1260" height="236" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1631427884625" />
+    <state width="1260" height="236" key="GridCell.Tab.1.center" timestamp="1631427884625">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1260" height="236" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1631427884625" />
+    <state width="1260" height="236" key="GridCell.Tab.1.left" timestamp="1631427884625">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1260" height="236" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1631427884625" />
+    <state width="1260" height="236" key="GridCell.Tab.1.right" timestamp="1631427884625">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1260" height="236" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1631427884625" />
+    <state x="450" y="134" key="RollbackChangesDialog" timestamp="1631432355342">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="450" y="134" key="RollbackChangesDialog/0.0.1280.760@0.0.1280.760" timestamp="1631432355342" />
     <state x="506" y="162" key="RollbackChangesDialog/0.0.1440.920@0.0.1440.920" timestamp="1630724823661" />
     <state x="222" y="105" key="SettingsEditor" timestamp="1630724370570">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="222" y="105" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1630724370570" />
-    <state x="385" y="85" key="VCS.ChangeListViewerDialog" timestamp="1631426716618">
+    <state x="385" y="85" key="VCS.ChangeListViewerDialog" timestamp="1631426949725">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="385" y="85" key="VCS.ChangeListViewerDialog/0.0.1280.760@0.0.1280.760" timestamp="1631426716618" />
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1630944400993">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state x="385" y="85" key="VCS.ChangeListViewerDialog/0.0.1280.760@0.0.1280.760" timestamp="1631426949725" />
+    <state x="278" y="160" key="Vcs.Push.Dialog.v2" timestamp="1631427011074">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
+    <state x="278" y="160" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1631427011074" />
     <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1630944400993" />
     <state x="418" y="248" key="git4idea.merge.GitPullDialog" timestamp="1630943975619">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="418" y="248" key="git4idea.merge.GitPullDialog/0.0.1440.920@0.0.1440.920" timestamp="1630943975619" />
-    <state x="422" y="219" key="git4idea.ui.GitTagDialog" timestamp="1631426723973">
+    <state x="422" y="219" key="git4idea.ui.GitTagDialog" timestamp="1631426988009">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="422" y="219" key="git4idea.ui.GitTagDialog/0.0.1280.760@0.0.1280.760" timestamp="1631426723973" />
+    <state x="422" y="219" key="git4idea.ui.GitTagDialog/0.0.1280.760@0.0.1280.760" timestamp="1631426988009" />
   </component>
 </project>
