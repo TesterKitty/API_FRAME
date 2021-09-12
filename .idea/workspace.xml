@@ -10,12 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfd25d7c-3233-4edb-a5be-58664646b7fc" name="Default Changelist" comment="comomon模块excel_utils.py编写，完成了合并单元格的封装以及获取所有表格数据，将表格数据转成列表形式">
-      <change afterPath="$PROJECT_DIR$/common/testdata_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_data/test_case.xlsx" afterDir="false" />
+    <list default="true" id="bfd25d7c-3233-4edb-a5be-58664646b7fc" name="Default Changelist" comment="增加了testdata_utils.py，实现excel数据转成真正需要的接口业务数据的方法&#10;增加了sample下demo.py，测试数据转换示例写在里面">
+      <change afterPath="$PROJECT_DIR$/conf/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/config_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/excel_untils.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/excel_untils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631426924277</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="增加了testdata_utils.py，实现excel数据转成真正需要的接口业务数据的方法&#10;增加了sample下demo.py，测试数据转换示例写在里面">
+      <created>1631433759472</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1631433759472</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,37 +250,42 @@
     <MESSAGE value="xlrd二次封装" />
     <MESSAGE value="增加test_class文件（学习类和实例）" />
     <MESSAGE value="comomon模块excel_utils.py编写，完成了合并单元格的封装以及获取所有表格数据，将表格数据转成列表形式" />
-    <option name="LAST_COMMIT_MESSAGE" value="comomon模块excel_utils.py编写，完成了合并单元格的封装以及获取所有表格数据，将表格数据转成列表形式" />
+    <MESSAGE value="增加了testdata_utils.py，实现excel数据转成真正需要的接口业务数据的方法&#10;增加了sample下demo.py，测试数据转换示例写在里面" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了testdata_utils.py，实现excel数据转成真正需要的接口业务数据的方法&#10;增加了sample下demo.py，测试数据转换示例写在里面" />
   </component>
   <component name="WindowStateProjectService">
     <state x="604" y="323" key="#Notifications" timestamp="1630833707654">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="604" y="323" key="#Notifications/0.0.1440.920@0.0.1440.920" timestamp="1630833707654" />
+    <state x="382" y="181" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1631436515889">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="382" y="181" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.760@0.0.1280.760" timestamp="1631436515889" />
     <state x="445" y="178" key="FileChooserDialogImpl" timestamp="1631426456246">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="445" y="178" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1631426456246" />
     <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1630935066086" />
-    <state width="1260" height="185" key="GridCell.Tab.0.bottom" timestamp="1631433253391">
+    <state width="1260" height="185" key="GridCell.Tab.0.bottom" timestamp="1631433787762">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1260" height="185" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1631433253391" />
+    <state width="1260" height="185" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1631433787762" />
     <state width="1419" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1630943410472" />
-    <state width="1260" height="185" key="GridCell.Tab.0.center" timestamp="1631433253391">
+    <state width="1260" height="185" key="GridCell.Tab.0.center" timestamp="1631433787762">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1260" height="185" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1631433253391" />
+    <state width="1260" height="185" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1631433787762" />
     <state width="1419" height="242" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1630943410472" />
-    <state width="1260" height="185" key="GridCell.Tab.0.left" timestamp="1631433253391">
+    <state width="1260" height="185" key="GridCell.Tab.0.left" timestamp="1631433787762">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1260" height="185" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1631433253391" />
+    <state width="1260" height="185" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1631433787762" />
     <state width="1419" height="242" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1630943410471" />
-    <state width="1260" height="185" key="GridCell.Tab.0.right" timestamp="1631433253391">
+    <state width="1260" height="185" key="GridCell.Tab.0.right" timestamp="1631433787762">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1260" height="185" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1631433253391" />
+    <state width="1260" height="185" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1631433787762" />
     <state width="1419" height="242" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1630943410472" />
     <state width="1260" height="236" key="GridCell.Tab.1.bottom" timestamp="1631427884625">
       <screen x="0" y="0" width="1280" height="760" />
@@ -293,31 +303,31 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1260" height="236" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1631427884625" />
-    <state x="450" y="134" key="RollbackChangesDialog" timestamp="1631432355342">
+    <state x="450" y="134" key="RollbackChangesDialog" timestamp="1631437324587">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="450" y="134" key="RollbackChangesDialog/0.0.1280.760@0.0.1280.760" timestamp="1631432355342" />
+    <state x="450" y="134" key="RollbackChangesDialog/0.0.1280.760@0.0.1280.760" timestamp="1631437324587" />
     <state x="506" y="162" key="RollbackChangesDialog/0.0.1440.920@0.0.1440.920" timestamp="1630724823661" />
     <state x="222" y="105" key="SettingsEditor" timestamp="1630724370570">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="222" y="105" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1630724370570" />
-    <state x="385" y="85" key="VCS.ChangeListViewerDialog" timestamp="1631426949725">
+    <state x="385" y="85" key="VCS.ChangeListViewerDialog" timestamp="1631433811303">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="385" y="85" key="VCS.ChangeListViewerDialog/0.0.1280.760@0.0.1280.760" timestamp="1631426949725" />
-    <state x="278" y="160" key="Vcs.Push.Dialog.v2" timestamp="1631427011074">
+    <state x="385" y="85" key="VCS.ChangeListViewerDialog/0.0.1280.760@0.0.1280.760" timestamp="1631433811303" />
+    <state x="278" y="160" key="Vcs.Push.Dialog.v2" timestamp="1631433883858">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="278" y="160" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1631427011074" />
+    <state x="278" y="160" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1631433883858" />
     <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1630944400993" />
     <state x="418" y="248" key="git4idea.merge.GitPullDialog" timestamp="1630943975619">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="418" y="248" key="git4idea.merge.GitPullDialog/0.0.1440.920@0.0.1440.920" timestamp="1630943975619" />
-    <state x="422" y="219" key="git4idea.ui.GitTagDialog" timestamp="1631426988009">
+    <state x="422" y="219" key="git4idea.ui.GitTagDialog" timestamp="1631433865020">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="422" y="219" key="git4idea.ui.GitTagDialog/0.0.1280.760@0.0.1280.760" timestamp="1631426988009" />
+    <state x="422" y="219" key="git4idea.ui.GitTagDialog/0.0.1280.760@0.0.1280.760" timestamp="1631433865020" />
   </component>
 </project>
